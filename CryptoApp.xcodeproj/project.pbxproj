@@ -18,6 +18,7 @@
 		8D2D8B6C28D0F8E700F79B9F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2D8B6B28D0F8E700F79B9F /* HomeView.swift */; };
 		8D2D8B7028D0F98B00F79B9F /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2D8B6F28D0F98B00F79B9F /* CircleButton.swift */; };
 		8D2D8B7228D1008100F79B9F /* CirvleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2D8B7128D1008100F79B9F /* CirvleButtonAnimationView.swift */; };
+		8D440BD229081CEF000B85A5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D440BD129081CEF000B85A5 /* HomeViewModel.swift */; };
 		8DFE0E702906CE910035F53F /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE0E6F2906CE910035F53F /* Double.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		8D2D8B6B28D0F8E700F79B9F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8D2D8B6F28D0F98B00F79B9F /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		8D2D8B7128D1008100F79B9F /* CirvleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirvleButtonAnimationView.swift; sourceTree = "<group>"; };
+		8D440BD129081CEF000B85A5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		8DFE0E6F2906CE910035F53F /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +127,7 @@
 		8D2D8B6928D0F8AB00F79B9F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				8D440BD129081CEF000B85A5 /* HomeViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D1284D52902BE3000F63D0A /* CoinRowView.swift in Sources */,
+				8D440BD229081CEF000B85A5 /* HomeViewModel.swift in Sources */,
 				8D2D8B7028D0F98B00F79B9F /* CircleButton.swift in Sources */,
 				8D2D8B5728D0F4C700F79B9F /* ContentView.swift in Sources */,
 				8D2D8B6C28D0F8E700F79B9F /* HomeView.swift in Sources */,
