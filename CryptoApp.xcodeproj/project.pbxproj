@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D05F95B290A99E8001DB3CA /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D05F95A290A99E8001DB3CA /* CoinDataService.swift */; };
 		8D06F32A28DB7EF100D4BE91 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D06F32928DB7EF100D4BE91 /* CoinModel.swift */; };
 		8D1284D52902BE3000F63D0A /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1284D42902BE3000F63D0A /* CoinRowView.swift */; };
 		8D1284D72902BE6C00F63D0A /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1284D62902BE6C00F63D0A /* PreviewProvider.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D05F95A290A99E8001DB3CA /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		8D06F32928DB7EF100D4BE91 /* CoinModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		8D1284D42902BE3000F63D0A /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		8D1284D62902BE6C00F63D0A /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D05F959290A99C2001DB3CA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8D05F95A290A99E8001DB3CA /* CoinDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		8D06F32628DB7B9A00D4BE91 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +89,7 @@
 			children = (
 				8D2D8B5428D0F4C700F79B9F /* CryptoAppApp.swift */,
 				8D2D8B5628D0F4C700F79B9F /* ContentView.swift */,
+				8D05F959290A99C2001DB3CA /* Services */,
 				8D2D8B6228D0F53D00F79B9F /* Assets.xcassets */,
 				8D2D8B6428D0F5F000F79B9F /* Extension */,
 				8D06F32628DB7B9A00D4BE91 /* Model */,
@@ -228,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D05F95B290A99E8001DB3CA /* CoinDataService.swift in Sources */,
 				8D1284D52902BE3000F63D0A /* CoinRowView.swift in Sources */,
 				8D440BD229081CEF000B85A5 /* HomeViewModel.swift in Sources */,
 				8D2D8B7028D0F98B00F79B9F /* CircleButton.swift in Sources */,
