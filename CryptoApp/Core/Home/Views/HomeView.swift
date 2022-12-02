@@ -11,12 +11,12 @@ import Combine
 struct HomeView: View {
     
     @EnvironmentObject var vm: HomeViewModel
-    @State private var isShowPortfolio: Bool = false
+    @State private var isShowPortfolio: Bool = true
     
     var body: some View {
         VStack {
             homeHeader
-            colunmTitles
+            columnTitles
             
             if !isShowPortfolio {
                 allCoinsList
@@ -68,7 +68,6 @@ extension HomeView {
         List {
             ForEach(vm.allCoins) { coin in
                 
-                
                 CoinRowView(coin: coin, isPortfolio: false)
                     .listRowInsets(EdgeInsets(
                         top: 10, leading: 0, bottom: 10, trailing: 10))
@@ -86,7 +85,7 @@ extension HomeView {
         .listStyle(.plain)
     }
     
-    private var colunmTitles: some View {
+    private var columnTitles: some View {
         HStack {
             Text("Coin")
             Spacer()
